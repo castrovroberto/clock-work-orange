@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+clock:
+  run:
+    duration: 3
+    token: Bearer valid-token
+
+logging:
+  level:
+    root: INFO
+    org.apache.tomcat: WARN
+    org.apache.coyote.http11.Http11Processor: ERROR
