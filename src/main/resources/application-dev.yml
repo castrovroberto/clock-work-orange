@@ -1,0 +1,8 @@
+clock:
+  run:
+    duration: 1
+    token: Shakira
+
+logging:
+  level:
+    root: DEBUG

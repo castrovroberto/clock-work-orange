@@ -1,0 +1,17 @@
+[
+  {
+    "type": "hour",
+    "priority": 0,
+    "message": "bong"
+  },
+  {
+    "type": "minute",
+    "priority": 1,
+    "message": "tock"
+  },
+  {
+    "type": "second",
+    "priority": 2,
+    "message": "tick"
+  }
+]

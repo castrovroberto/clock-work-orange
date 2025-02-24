@@ -1,0 +1,8 @@
+clock:
+  run:
+    duration: 3
+    token: Bearer valid-token
+
+logging:
+  level:
+    root: INFO
