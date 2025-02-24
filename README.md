@@ -68,7 +68,7 @@ Les amo!
 ## **3️⃣ Considerations and Assumptions 🤔💭**
 - The moment the application starts running is considered **the beginning of the first hour** regarding run execution time.
 - The minimum configuration allowed for run duration is one hour, 0 hours is an invalid configuration.
-- The one seconds, one minute and one hour intervals will be aligned with LocalDateTime clock.
+- The one second, one minute and one hour intervals will be aligned with LocalDateTime clock.
 - The application should be **production-ready!!** 😅🚀
 - **All rule messages must be configurable dynamically**, allowing to be changed during runtime.
 - **Tests should ensure stability**, including rule evaluation, config and scheduling.
@@ -166,7 +166,7 @@ mvn clean install -U -X
 Please keep in mind that PMD and code style checks are enforced by the compiler in this project.
 
 ### **🔹 CI/CD**
-Build and deploy to a cloud VM or PROD environment is considered as well.
+Build and deploy to a cloud VM environment is considered as well.
 A few steps are needed tho.
  - Setup a token with workflow entitlements if needed.
  - Need to setup github secrets for user and token, as well for the VM SSH credentials
