@@ -56,7 +56,7 @@ A scheduled job runs every second to determine if the current time matches:
 
 ## **2️⃣ Dedication** 
 I want to dedicate every project, including this one to my **wife** and our future **child**.
-To my lovely wife: the source of all my strength and inspiration. Nobody work as hard as you.
+To my lovely wife: the source of all my strength and inspiration. Nobody works as hard as you.
 To our future baby: whose arrival fills me with hope, purpose, and the determination to go above and beyond each day.
 Every clock's **tick** is a reminder of a life filled with precious moments of endless love, and adventures together.
 
@@ -66,7 +66,9 @@ Les amo!
 ---
 
 ## **3️⃣ Considerations and Assumptions 🤔💭**
-- The moment the application starts running is considered **the beginning of the first hour**.
+- The moment the application starts running is considered **the beginning of the first hour** regarding run execution time.
+- The minimum configuration allowed for run duration is one hour, 0 hours is an invalid configuration.
+- The one seconds, one minute and one hour intervals will be aligned with LocalDateTime clock.
 - The application should be **production-ready!!** 😅🚀
 - **All rule messages must be configurable dynamically**, allowing to be changed during runtime.
 - **Tests should ensure stability**, including rule evaluation, config and scheduling.
